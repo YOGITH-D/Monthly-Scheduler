@@ -1,0 +1,91 @@
+    body{
+        background-color: aqua;
+        font-family: "Poppins";
+    }
+    
+    .title{
+        font-size:100px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        
+        
+    }
+
+    .grid-div-1,.grid-div-2{
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+    }
+
+    .grid-div-2{
+        border: 2px solid black;
+    }
+
+    .input-task{
+        padding: 4px;
+        font-size: 20px;
+        background-color: rgba(34, 150, 213, 0.819);
+        color: white;
+        border-top-left-radius: 20px;
+    }
+
+    .input-task::placeholder{
+        color: white;
+    }
+    
+    .input-date{   
+        padding:0px;
+        background-color: whitesmoke;
+        color:rgba(34, 150, 213, 0.819);
+        text-align: center;
+        font-size: 20px;  
+    }
+ 
+    .input-add-button{
+        color: white;
+        background-color: rgba(34, 150, 213, 0.819);
+        font-size: large;
+        border-top-right-radius: 20px;
+        transition: background-color 0.1s;
+    }
+
+    .input-add-button:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .input-add-button:active{
+        background-color: rgba(23, 78, 219, 0.819);
+    }
+
+    .display-task{
+        background-color: rgba(34, 150, 213, 0.33);
+        padding:4px;
+        border-bottom: 2px solid black;
+        
+    }
+
+    .display-date{   
+        box-sizing: border-box;
+        text-align: center;
+        background-color:whitesmoke;
+        color:rgba(34, 150, 213, 0.819);
+        font-size: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+    .display-delete{
+        display: flex;  
+    }
+    
+    .delete-button{
+        flex:1;
+        font-size: 18px;
+        background-color: rgba(198, 20, 20, 0.984);
+        color: white;
+    
+    }
